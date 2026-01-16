@@ -43,7 +43,3 @@ python etl/clean_superstore.py --input data/raw/superstore.csv --outdir data/pro
 3. Follow the layout in: `docs/dashboard_spec.md`
 4. Publish to Tableau Public and link it in your GitHub and LinkedIn
 
-## Suggested portfolio write-up
-- Business goal: Track revenue, profit, margin, and growth; identify regional and product-level drivers; quantify the impact of discounts and shipping.
-- Key KPIs: Sales, Profit, Profit Margin, Orders, AOV, YoY trend.
-- Insights to highlight: loss-making sub-categories, discount levels associated with negative margins, and high-profit regions.
