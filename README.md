@@ -43,3 +43,4 @@ python etl/clean_superstore.py --input data/raw/superstore.csv --outdir data/pro
 3. Follow the layout in: `docs/dashboard_spec.md`
 4. Publish to Tableau Public and link it in your GitHub and LinkedIn
 
+<img width="769" height="904" alt="Screenshot 2026-01-15 at 9 55 05 PM" src="https://github.com/user-attachments/assets/4c281760-b313-438c-a775-58d31c6d0308" />
