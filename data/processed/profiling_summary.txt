@@ -1,0 +1,34 @@
+Superstore Profiling Summary
+===========================
+
+rows: 9994
+columns: 23
+unique_order_ids: 5009
+duplicate_order_id_rows: 4985
+order_date_min: 2014-01-03 00:00:00
+order_date_max: 2017-12-30 00:00:00
+
+Null counts (top 25):
+Row ID: 0
+Region: 0
+Ship Days: 0
+Profit: 0
+Discount: 0
+Quantity: 0
+Sales: 0
+Product Name: 0
+Sub-Category: 0
+Category: 0
+Product ID: 0
+Postal Code: 0
+Order ID: 0
+State: 0
+City: 0
+Country: 0
+Segment: 0
+Customer Name: 0
+Customer ID: 0
+Ship Mode: 0
+Ship Date: 0
+Order Date: 0
+Discount Bucket: 0

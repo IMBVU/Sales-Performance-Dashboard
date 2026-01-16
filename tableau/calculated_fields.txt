@@ -1,0 +1,26 @@
+# Tableau Calculated Fields (copy/paste)
+
+Total Sales
+SUM([Sales])
+
+Total Profit
+SUM([Profit])
+
+Profit Margin
+SUM([Profit]) / SUM([Sales])
+
+Orders
+COUNTD([Order ID])
+
+AOV (Average Order Value)
+SUM([Sales]) / COUNTD([Order ID])
+
+Ship Days
+DATEDIFF('day', [Order Date], [Ship Date])
+
+Discount Bucket
+IF [Discount] = 0 THEN "No Discount"
+ELSEIF [Discount] <= 0.20 THEN "Low (0–20%)"
+ELSEIF [Discount] <= 0.40 THEN "Medium (20–40%)"
+ELSE "High (40%+)"
+END
